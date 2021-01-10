@@ -122,3 +122,81 @@
     height: 1em;
     line-height: 1em;
 }
+
+/*-- resume --*/
+
+#timeline{
+    background-color: #f9f9f9;
+}
+.timeline-section{
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+    position: relative;
+    background-color: #f9f9f9;
+}
+.timeline-left{
+    margin: 0 10%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.timeline-left h3,.timeline-right h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: #555;
+
+}
+.timeline-left ul,.timeline-right ul{
+    
+}
+.timeline-left li,.timeline-right li{
+    
+}
+.timeline{
+    position: relative;
+}
+.timeline li
+{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background: #fff;
+}
+.timeline h4{
+    background-color: #000;
+    padding: 5px 0 5px 20px;
+    color: #fff;
+    font-size: 15px;
+}
+.timeline h4 span
+{
+    font-weight: bold;
+    color: #ccc;
+}
+.timeline li p{
+    line-height: 30px;
+}
+.timeline::before{
+    content: " ";
+    background-color: #777;
+    display: inline-block;
+    position: absolute;
+    width: 2px;
+    height: 570px;
+    left: -50px;
+    z-index: 1;
+}
+.timeline li::before{
+    content: '';
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #000;
+    left: -62px;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
