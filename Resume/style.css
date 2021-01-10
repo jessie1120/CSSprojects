@@ -238,3 +238,65 @@
     color: #777;
     margin-bottom: 50px;
 }
+
+/* contact section*/
+
+.contact-container{
+    margin-top: 20px;
+    padding-top: 5px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/background2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+.contact-text{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact-text h1{
+    font-size: 50px;
+    padding: 15px;
+}
+.contact-text p{
+    font-size: 20px;
+}
+.contact-box{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.contact-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-col img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.btn-box{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin: 40px;
+    color: #fff;
+    padding: 10px 30px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer-text{
+    padding: 3px;
+    text-align: center;
+    background-color: #777;
+    color: #fff;
+    font-weight: lighter;
+}
