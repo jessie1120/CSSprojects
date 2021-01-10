@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Goldfish #20 test</title>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        ul{
+            width: 960px;
+            margin: auto;
+            padding: 100px 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        li{
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+            /* outline: 1px solid black; */
+            margin: 0 60px -45px;
+            position: relative;
+            font-size: 30px;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        li::before{
+            content: '';
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            /* outline: 1px solid red; */
+            top: 0;
+            left: 0;
+            transform: rotate(45deg);
+        }
+        li:nth-child(n+4){
+            left: 160px;
+        }
+        li:nth-child(n+7){
+            left: 0;
+        }
+        .box1::before{background-color: #FFB5B5;}
+        .box2::before{background-color: #acd6ff;}
+        .box3::before{background-color: #af9f8c;}
+        .box4::before{background-color: #939391;}
+        .box5::before{background-color: #E6CAFF;}
+        .box6::before{background-color: #8696A7;}
+        .box7::before{background-color: #c1cbd7;}
+        .box8::before{background-color: #96a486;}
+        .box9::before{background-color: #d4c8be;}
+
+        li:hover{
+            color: white;
+        }
+        li:hover::before{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="box1">金魚系列</li>
+        <li class="box2">HTML</li>
+        <li class="box3">筆記</li>
+        <li class="box4">網頁入門</li>
+        <li class="box5">CSS</li>
+        <li class="box6">熟悉</li>
+        <li class="box7">切版練習</li>
+        <li class="box8">RWD</li>
+        <li class="box9">速度</li>
+    </ul>
+</body>
+</html>
