@@ -200,3 +200,41 @@
     height: 20px;
     z-index: 2;
 }
+
+/* service section*/
+
+.service-text{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.service-text h1{
+    font-size: 50px;
+    padding: 15px;
+}
+.service-text p{
+    font-size: 20px;
+}
+.service-container{
+    width: 100%;
+}
+.service-box{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.chart {
+    padding: 0 30px;
+}
+.chart img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.chart p{
+    line-height: 1.2em;
+    color: #777;
+    margin-bottom: 50px;
+}
